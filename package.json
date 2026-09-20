@@ -9,14 +9,17 @@
   },
   "scripts": {
     "start": "tsx src/server.ts",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "client": "tsx src/client.ts"
   },
   "dependencies": {
     "@x402/core": "^2.26.0",
     "@x402/evm": "^2.26.0",
     "@x402/express": "^2.26.0",
+    "@x402/fetch": "^2.26.0",
     "dotenv": "^18.0.1",
-    "express": "^5.1.0"
+    "express": "^5.1.0",
+    "viem": "^2.56.8"
   },
   "devDependencies": {
     "@types/express": "^5.0.0",
